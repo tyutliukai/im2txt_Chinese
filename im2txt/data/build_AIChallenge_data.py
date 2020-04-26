@@ -97,15 +97,15 @@ import tensorflow as tf
 from six.moves import xrange
 
 tf.flags.DEFINE_string("train_image_dir",
-                       "/Users/TimoYoung/workspace/PyCharm/im2txt/data/caption_validation_images_20170910/",
+                       "/content/drive/My Drive/ai_challenger_caption_test_a_20180103/caption_test_a_images_20180103",
                        "Training image directory.")
 
 tf.flags.DEFINE_string("train_captions_file",
-                       "/Users/TimoYoung/workspace/PyCharm/im2txt/data/caption_validation_annotations_20170910.json",
+                       "/content/drive/My Drive/ai_challenger_caption_test_a_20180103/caption_test_a_annotations_20180103.json",
                        "Training captions JSON file.")
 
 tf.flags.DEFINE_string("output_dir",
-                       "/Users/TimoYoung/workspace/PyCharm/im2txt/",
+                       "/content",
                        "Output data directory.")
 
 tf.flags.DEFINE_integer("train_shards", 256,
