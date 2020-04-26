@@ -97,11 +97,11 @@ import tensorflow as tf
 from six.moves import xrange
 
 tf.flags.DEFINE_string("train_image_dir",
-                       "/content/drive/My Drive/ai_challenger_caption_test_a_20180103/caption_test_a_images_20180103",
+                       "/content/data/ai_challenger_caption_test_a_20180103/caption_test_a_images_20180103",
                        "Training image directory.")
 
 tf.flags.DEFINE_string("train_captions_file",
-                       "/content/drive/My Drive/ai_challenger_caption_test_a_20180103/caption_test_a_annotations_20180103.json",
+"/content/data/ai_challenger_caption_test_a_20180103/caption_test_a_annotations_20180103.json",      
                        "Training captions JSON file.")
 
 tf.flags.DEFINE_string("output_dir",
