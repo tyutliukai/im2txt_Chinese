@@ -27,13 +27,13 @@ from im2txt import show_and_tell_model
 FLAGS = tf.app.flags.FLAGS
 
 tf.flags.DEFINE_string("input_file_pattern",
-                       "/Users/TimoYoung/workspace/PyCharm/im2txt/data/processed_dataset/train-00???-of-00256",
+                       "/content/im2txt_chinese/im2txt/data/processed_dataset/train-00???-of-00256",
                        "File pattern of sharded TFRecord input files.")
 tf.flags.DEFINE_string("inception_checkpoint_file",
-                       "/Users/TimoYoung/workspace/PyCharm/im2txt/inception_v3.ckpt",
+                       "/content/inception_v3.ckpt",
                        "Path to a pretrained inception_v3 model.")
 tf.flags.DEFINE_string("train_dir",
-                       "/Users/TimoYoung/workspace/PyCharm/im2txt/model",
+                       "/content/im2txt_chinese/im2txt/model",
                        "Directory for saving and loading model checkpoints.")
 tf.flags.DEFINE_boolean("train_inception", False,
                         "Whether to train inception submodel variables.")
